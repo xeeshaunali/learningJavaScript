@@ -394,5 +394,15 @@ for(var i = 0; i <arr.length; i++ ){
 
 */
 
+ // i loop run 4 times
+ // j loop runs 3 times
+ // 4 * 3 = 12
+ // hello will print 12 times
 
-
+/* 
+for (var i = 0; i <4; i++){ 
+    for(var j = 0; j <3; j++){
+        document.write("Hello" + "<br>")
+    }
+}
+*/
