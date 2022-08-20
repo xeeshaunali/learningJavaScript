@@ -369,6 +369,10 @@ var ageToday = miliSecondsTillToday - miliSecondsDob;
 
 console.log(ageToday); //AGE TODAY
 
+console.log(ageToday/ (1000*60*60*24*31*12))//AGE IN YEARS 
+
+
+
 
 
 
