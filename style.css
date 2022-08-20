@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+.top {
+    background-color: gainsboro;
+    box-shadow: 3px 3px 5px gray;    
+}
+
+.top-images {    
+    display: flex;
+    justify-content: center;    
+}
+
+
+.pokemon {
+    box-shadow: 1px 1px 10px black;
+}
+
+.image{
+    width: 100px;
+    margin: 3px;
+}
+
+.image-link{
+    width: 200px;
+    margin-left: 3px;
+    box-shadow: 1px 1px 3px gray;    
+}
+
+.image:hover{
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+    transition: 1.5s;
+    width: 100%;
+}
+
+.image-link:hover{
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/*Second Nav */
+
+.second-nav {
+    /* border: 1px solid black; */
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px gray;
+    
+    
+}
+
+ul {
+    list-style: none;    
+    margin-left: 120px;
+    
+    /* margin-top: 10px; */
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 50px; */
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 100px;
+    
+       
+}
+
+/* To center text under image*/
+
+.caption {
+    display: block;
+
+}
+ /* To remove under line */
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* li individual formating */
+
+.li-one {
+    box-shadow: 3px 3px 3px black;
+    background-color: gray;
+}
+
+
+.li-two {
+    box-shadow: 3px 10px 3px #ff0000;
+    
+}
+
+.li-two:hover {
+    background-color: #ff0000;
+}
+
+.li-three {
+    box-shadow: 3px 10px 3px #ee6b2f;
+}
+
+.li-three:hover {
+    background-color: #ee6b2f;
+}
+
+
+.li-four {
+    box-shadow: 3px 10px 3px #e6bc2f;
+}
+
+.li-four:hover {
+    background-color: #e6bc2f;
+}
+
+
+.li-five {
+    box-shadow: 3px 10px 3px #4dad5b;
+}
+
+
+.li-five:hover {
+    background-color:  #4dad5b;
+}
+
+
+.li-six {
+    box-shadow: 3px 10px 3px #34A9D8;
+}
+
+.li-six:hover {
+    background-color:  #34A9D8;
+}
+
+
+.li-seven {
+    box-shadow: 3px 10px 3px #1F56BB;
+}
+
+.li-seven:hover {
+    background-color:  #1F56BB;
+}
+
+
+/*Cards CSS Code */
+
+.cards {
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+        
+
+}
+
+
+
+.card1 {
+    width: 70%;
+    border: 1px solid red;
+    
+}
+
+
+.card2 {
+    width: 60%;
+    height: 70%;
+    border: 1px solid blue;
+    margin-left: 10px;
+}
+
+.card3 {        
+    width: 60%; 
+    height: 30%;       
+    border: 1px solid blue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card3-para {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}

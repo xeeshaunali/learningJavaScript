@@ -1,0 +1,370 @@
+// var fname = prompt("Please Enter Your Name","Mohammad");
+// var lname = prompt("Please Enter Your Last Name");
+// var age = prompt("Please Enter Your age");
+// console.log(fname + " " + " " + lname + " " + age );
+
+
+// var myNum   = 5
+// var userNum = +prompt("Enter User Number");
+// var dosraTarika = parseInt(prompt("Enter Number"))
+// console.log(dosraTarika + userNum);
+
+// // console.log(typeof userNum);
+
+
+
+// MARKSHEET CODE
+
+
+/* var eng   = +prompt("English Marks");
+var math  = +prompt("Math Marks");
+var bio   = +prompt("Bio Marks");
+
+var obtainedMarks = eng + math + bio;
+var totalMarks = 300;
+var percentage = (obtainedMarks/totalMarks) * 100
+
+if (    (eng <=100 && eng>=00)
+     && (math <=100 && math >=00)
+     && (bio <=100 && bio>=00) )
+{
+
+    if (percentage <=100 &&  percentage >=80){
+        console.log("A1 Grade")
+        console.log("English marks " + "= " + eng + "\n" + "Math marks " + "= " + math + " " + "\n" + "Bio marks " + "= " + bio)
+    }
+    else if (percentage <=79 &&  percentage >=60) {
+        console.log("A Grade")
+    }
+    else if (percentage <=59 && percentage>=40){
+        console.log("B Grade")
+    }
+    else if (percentage <=39 && percentage>=30){
+        console.log("C Grade");
+    }
+    
+    else if(percentage <30){
+        console.log("You have failed Examination")
+    }
+    
+    else if (percentage <=-1 && percentage>100){
+        console.log("Wrong Marks entered")
+    }
+    else {
+        console.log("Please enter all subject marks")
+    }
+    
+}
+else {
+    console.log("Please Enter Proper marks between 00 and 100");
+}
+
+*/
+
+
+// VALIDATING USER NAME AND PASSWORD
+
+/*
+var user = "admin";
+var password = "password123";
+var userAdmin = prompt("Please Enter User name");
+var userPassword = prompt("Please Enter Password")
+
+if (user === userAdmin && password === userPassword){
+    console.log("Success")
+}
+
+else {
+    console .log("Failed")
+}
+*/
+
+
+
+// ARRAY PUSH POP SHIFT UNSHIFT SPLICE SLICE
+/*
+var collection = ["a", "b", "c", 1, 2, 3];
+collection.push(4,5,6,7);
+collection.pop()
+console.log(collection);
+*/
+
+/*
+var collection = ["a", "b", "c", 1, 2, 3];
+collection.unshift("xee")
+console.log(collection)
+*/
+
+
+// METHODS JS 
+/* var collection = ["a", "b", "c", 1, 2, 3];
+collection.push("Hello")
+console.log(collection)
+collection.pop();
+console.log(collection)
+collection.shift()
+console.log(collection)
+collection.unshift("a")
+console.log(collection)
+collection.splice(2,2,"Wolrd")
+console.log(collection)
+var arr = collection.slice(2,4)
+console.log(arr)
+*/
+
+//TABLE FOR LOOP
+/*
+for (var i = 2; i <=10; i++){
+    document.write(396 + "X" + i + "=" + i*396 + "<br>")
+}
+*/
+
+
+//TABLE AFTER USER INPUT
+/* var table = +prompt("Number", "Enter Table Reuquired");
+var timesTable = +prompt("Number", "table count"
+);
+
+
+for(var i = 1; i <= timesTable; i++){
+    document.write(table + "x" + i + "=" + table*i + "<br>")
+}
+*/
+
+//SIMPLE CALCULATOR
+
+/*
+var x = +prompt("Please Enter number", "Number1")
+var y = prompt("Please Enter Sign", "Sign")
+var z = +prompt("Please Enter number", "Number2")
+
+if(y === "+"){
+    document.write(x+z)
+}
+else if(y === "-"){
+    document.write(x-z)
+}
+else if(y === "*"){
+    document.write(x*z)
+}
+
+else if(y === "/"){
+    document.write(x/z)
+}
+
+else{
+    document.write("Error wrong data feed")
+}
+*/
+
+
+// COUNTRIES
+
+/*
+var arr = ["Pakistan","New-Zealad", "Australia","England", "India", "Srilanka", "Bangladesh"]
+
+
+for(var i = 0; i<arr.length; i++){
+    // document.write(arr[i] + "<br>")
+    if(arr[i] === "Pakistan"){
+        console.log(arr[i] + " is the winner")
+        break
+    }
+    else if (arr[i] === "Indai") {
+        console.log("India has lost")
+    }
+
+    else (
+        console.log("Do not care")
+    )
+
+}
+*/
+
+
+// var num = [0,1,2,3,4,5,6,7,8,9]
+
+// for(var i = 0; i<num.length; i++ ){
+//     if(num[i] === 9){
+//         console.log(num[i] + " Is the required number")        
+//         break
+//     }
+//     else {
+//         console.log("All Failed")
+//     }
+// }
+
+
+
+//PRINT INDIA AND THEN BREAK
+/*
+var country = ["Pakistan", "India"]
+
+for (var i = 0; i<country.length; i++){
+    if(country[i] === "India"){       
+        document.write(country[i] + "  To Harega ")
+        break
+    }
+    
+   
+    
+}
+
+*/
+
+
+// for(var i = 0; i <=10; i++){
+//     document.write(i + "<br>")
+// }
+
+
+// var word = "xeeshaun";
+// console.log(word.toUpperCase());
+// console.log(word.toLowerCase())
+
+// var x = "xeeshuan"
+// var a = x.slice(0,1)
+// var b = x.slice(1,8)
+// console.log(a.toUpperCase() + b.toLocaleLowerCase())
+
+
+
+// var user = prompt("Please enter Zaban")
+// var arr = ["Saraiki", "Baloch", "Punjabi", "Urdu","Pushto"]
+
+// first letter of city should be capital
+// city name varified from give array
+//Now create logic
+
+
+// var userInput = user.slice(0,1)
+// var userInput1 = user.slice(1)
+// var userInput2 = a+b
+// for (var i = 0; i < arr.length; i++ ){    
+//     if(arr[i] === user && user.slice(0,1) === userInput.toUpperCase()){
+//         document.write("Jee Bhai Mil gay")
+//     }
+//     else if (arr[i] === user && userInput.toLowerCase(0,1)){
+//         document.write("Please use first letter as capital")
+//     }
+// }
+
+
+// first letter of city should be capital
+// city name varified from give array
+//Now create logic
+
+
+
+// var city = ["Hyderabad", "Karachi"];
+// var user = prompt("Enter City with capital first letter", "Example: Multan");
+
+// var a = user.slice(0,1);
+// var b = user.slice(1);
+// var c = a.toLocaleUpperCase() + b.toLowerCase();
+// for(var i = 0; i < city.length; i++){
+//     if(city[i] === c){
+//         document.write("Mill Gaya")
+//         break
+//     } else {
+//         document.write("Nahe Mila")        
+//     }
+// }
+
+// HEAD AND TAILS
+ /* var head  = prompt("Enter Your Name", "Selection Head")
+var tails = prompt("Emter Your name", "Selection Tail")
+
+var toss = Math.random()*2
+var ksi = Math.floor(toss)
+
+if(ksi == 0){
+    console.log(head + " " + "Wins")
+}
+else {
+    console.log(tails + " " + "Wins")
+}
+*/
+
+
+// charAt() Method
+
+/* var x = "Xeeshuan";
+var y = x.charAt(0)
+console.log(y)
+*/
+
+// 
+/* var abc = "ayesha agai first position"
+var x = abc.replace("ayesha", 'saad')
+
+console.log(x)
+*/
+
+
+// NEW DATE Thu Aug 18 2022 10:48:58 GMT+0500 (Pakistan Standard Time)
+/*
+var rightNow = new Date();
+console.log(rightNow)
+document.write(rightNow) 
+*/
+
+
+/*
+var a = new Date()
+var b = a.getDay()
+var c = a.getMonth()
+var d = a.getDate()
+var e = a.getFullYear()
+var f = a.getTime()
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+console.log(e)
+console.log (f)
+
+*/
+
+
+//DATE PRINT 
+// convert new date variable into string
+
+
+/* var rightNow = new Date();
+var a = rightNow.getTime(); // SINCE 1 JANUARY 1970 SECONDS
+console.log(a)
+var rightNowslice = rightNow.toString();
+console.log(rightNowslice)
+
+var dayD = rightNowslice.slice(0,3)
+console.log(dayD)
+
+var monthM = rightNowslice.slice(4,7)
+console.log(monthM)
+
+var dateDt = rightNowslice.slice(8,10)
+console.log(dateDt)
+
+var yearYr = rightNowslice.slice(11,15)
+console.log(yearYr)
+
+var daymonthdateyear = (dayD + " " + monthM + " " + dateDt + " " + yearYr)
+
+console.log(daymonthdateyear)
+*/
+
+// AGE CALCULATOR
+
+var x = new Date("24 Aug, 1980");
+var age = x.getTime();
+console.log(age)
+
+var y = new Date;
+var y = y.getTime() 
+console.log(y)
+
+
+
+
+
