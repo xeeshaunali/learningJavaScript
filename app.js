@@ -380,8 +380,14 @@ console.log(myAge) //USING FLOOR FUNCTION
 
 */
 
+// NESTED LOOP
+var arr = ["Mohammad", "Saad", "Ali"];
+var secarr = ["Basit", "Usama"];
 
+for(var i = 0; i <arr.length; i++ ){    
+    for(var j = 0; j<secarr.length; j++){
+        document.write(arr[i] + secarr[j] + "<br>")        
+    }     
 
-
-
+}
 
