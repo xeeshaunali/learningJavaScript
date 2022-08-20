@@ -356,13 +356,11 @@ console.log(daymonthdateyear)
 
 // AGE CALCULATOR
 
-var x = new Date("24 Aug, 1980");
-var age = x.getTime();
-console.log(age)
+var dob = new Date("24 Aug, 1980");
+var dobmili = dob.getTime();
+var today = new Date();
+console.log(today)
 
-var y = new Date;
-var y = y.getTime() 
-console.log(y)
 
 
 
