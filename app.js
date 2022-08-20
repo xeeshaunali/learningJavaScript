@@ -356,6 +356,9 @@ console.log(daymonthdateyear)
 
 // AGE CALCULATOR
 
+
+/*
+
 var dob = new Date("24 Aug, 1980");  
 var miliSecondsDob = dob.getTime(dob);//CALCULATION 0F TIME FROM 1ST JAN 1970 TO  24 AUG 1980
 console.log(miliSecondsDob);
@@ -369,7 +372,13 @@ var ageToday = miliSecondsTillToday - miliSecondsDob;
 
 console.log(ageToday); //AGE TODAY
 
-console.log(ageToday/ (1000*60*60*24*31*12))//AGE IN YEARS 
+var diffAge = ageToday/ (1000*60*60*24*31*12)  
+console.log(diffAge)//AGE IN YEARS 
+
+var myAge = Math.floor(diffAge);
+console.log(myAge) //USING FLOOR FUNCTION 
+
+*/
 
 
 
