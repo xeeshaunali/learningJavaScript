@@ -435,3 +435,12 @@ function print(){
 print()
 */
 
+/*
+function counting(){
+    for (var i = 0; i <200; i++){
+        document.write(i + "<br>")
+    }
+}
+
+counting()
+*/
