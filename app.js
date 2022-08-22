@@ -437,10 +437,21 @@ print()
 
 /*
 function counting(){
-    for (var i = 0; i <200; i++){
+    for (var i = 0; i <4; i++){
         document.write(i + "<br>")
     }
 }
 
 counting()
+
+document.write("Hello function" + "<br>")
+document.write("Hello function" + "<br>")
+document.write("Hello function" + "<br>")
+document.write("Hello function" + "<br>")
+
+counting()
+
 */
+
+
+
