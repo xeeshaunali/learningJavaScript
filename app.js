@@ -498,3 +498,34 @@ function addd(a = 100, b = 100){
 
 addd(300, 700)
 */
+
+
+//PROMPT WITH MANUAL FUNCTION
+/*
+function subs(a,b){
+    document.write(a - b)
+}
+
+subs(+prompt("Enter Value 1"), +prompt("Enter Value 2"))
+*/
+
+//TASK 
+// USE NESTED LOOP
+//*
+//**
+//***
+//***
+
+/*
+for(var i = 1; i <5; i++ ){
+    
+    for(var j = i; j < 7; j = i+j){        
+        document.write("#")
+    }
+    document.write("<br>")
+}
+*/
+
+
+
+
