@@ -474,3 +474,27 @@ function greet(abc){
 
 greet("Hello") //hello is argument
 */
+
+//CONDITON FUNCTION
+/*
+function add(a,b){ 
+    document.write(a + b) 
+}
+
+add(100,100) 
+*/
+
+/*
+function addd(a = 100, b = 100){
+    alert(a + b)
+}
+
+addd()
+*/
+/*
+function addd(a = 100, b = 100){
+    alert(a + b)
+}
+
+addd(300, 700)
+*/
