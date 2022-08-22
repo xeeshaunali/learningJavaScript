@@ -526,6 +526,11 @@ for(var i = 1; i <5; i++ ){
 }
 */
 
+//RETURN CONCEPT IN FUNCTION
+/*
+function add(a,b){
+    return  a + b
+}
 
-
-
+alert(add(100, 100))
+*/
