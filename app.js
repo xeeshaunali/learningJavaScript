@@ -426,7 +426,7 @@ for(var i = 1; i <100; i+=10){
  }
 */
 
-// FUNCTIONS TOPIC
+// FUNCTIONS TOPIC LEARNING
 /*
 function print(){
     document.write("Hello")
@@ -453,5 +453,15 @@ counting()
 
 */
 
+// TABLE PRINT WITH MANUAL FUNCTION
 
+/*
+function twoTable(){
+    for(var i = 1; i <=10; i++)
+    {
+        document.write("2" + "X" + i + "=" + 2*i + "<br>")
+    }
+}
+twoTable()
+*/
 
