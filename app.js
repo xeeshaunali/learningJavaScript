@@ -465,3 +465,12 @@ function twoTable(){
 twoTable()
 */
 
+//MANUAL FUNCTION GREET
+// abc is parameter
+/*
+function greet(abc){
+    alert(abc)
+}
+
+greet("Hello") //hello is argument
+*/
