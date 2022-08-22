@@ -406,3 +406,25 @@ for (var i = 0; i <4; i++){
     }
 }
 */
+
+
+// print 1 to 10 on  line one
+// print 11 to 20 on  line two
+/*
+for(var i = 1; i < 100; i+)
+
+
+for(var i = 1; i <100; i+=10){
+
+    document.write(i + "<br>" )
+
+    for (var j = i+1; j < i+10; j++){             
+        
+        document.write("j" + "<br>")
+    }  
+   
+ }
+*/
+ 
+
+ 
