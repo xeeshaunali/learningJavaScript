@@ -425,6 +425,13 @@ for(var i = 1; i <100; i+=10){
    
  }
 */
- 
 
+// FUNCTIONS TOPIC
+/*
+function print(){
+    document.write("Hello")
+}
  
+print()
+*/
+
