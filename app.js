@@ -563,7 +563,15 @@ document.write(diff)
 
 //CODE PRACTICE IN PROGRESS 
 var rightNow = new Date()
-
-console.log(rightNow)
+var rightNow1 =rightNow.toString()
+var dayD = rightNow1.slice(0,3)
+var monthM = rightNow1.slice(4,7)
+var dateDt = rightNow1.slice(8,10)
+var yearY = rightNow1.slice(11,15)
+console.log(dayD)
+console.log(monthM)
+console.log(dateDt)
+console.log(yearY)
+console.log(dayD + " " + monthM + " " + dateDt + " " + " " + yearY)
 
 
