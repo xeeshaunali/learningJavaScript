@@ -534,3 +534,36 @@ function add(a,b){
 
 alert(add(100, 100))
 */
+
+//SECOND RETURN CONCEPT IN FUNCTION
+
+/*
+function add(a,b){
+    return a + b
+}
+
+var x = add(2,2)
+document.write(x)
+document.write("<br>")
+var y = add(2,2)
+document.write(x)
+document.write("__________"+ "<br>")
+var diff = x -y;
+document.write(diff)
+*/
+
+// var a = 10;
+// function add(){
+//     var b = "Xee"
+//     return b
+// }
+
+// document.write(a)
+// document.write(add())
+
+//CODE PRACTICE IN PROGRESS 
+var rightNow = new Date()
+
+console.log(rightNow)
+
+
