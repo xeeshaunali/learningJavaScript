@@ -562,7 +562,9 @@ document.write(diff)
 // document.write(add())
 
 //CODE PRACTICE IN PROGRESS 
-var rightNow = new Date()
+// DATE FUNCTION
+
+/* var rightNow = new Date()
 var rightNow1 =rightNow.toString()
 var dayD = rightNow1.slice(0,3)
 var monthM = rightNow1.slice(4,7)
@@ -573,5 +575,40 @@ console.log(monthM)
 console.log(dateDt)
 console.log(yearY)
 console.log(dayD + " " + monthM + " " + dateDt + " " + " " + yearY)
+*/
+
+// AGE CALCULATOR PRACT8ICE CODE
+
+/*
+var dob = new Date("24 Aug, 1980")
+console.log("dob" + " " + dob)
+
+var rightNow = new Date()
+console.log("rightNow since 01-01-1970" + " " + rightNow)
+
+var diff = ("diff in miliseconds" + " " + (rightNow-dob))
+
+console.log(diff)
+
+// diff = getFullYear(diff)
+var ageInYears = 1325334564880/32140800000 //(1000*60*60*24*31*12)
+console.log(ageInYears)
+*/
+
+/*
+function greet(a,b){
+    return a+b
+}
+
+console.log(greet(1,1))
+*/
+
+ 
+
+
+
+
+
+
 
 
