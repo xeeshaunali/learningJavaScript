@@ -616,12 +616,36 @@ for (var i = 1; i < 5; i++){
 
 // WHILE, DO WHILE
 //TABLE IN WHILE LOOP
+/*
 var a = 1;
 while(a <= 10 ){ 
     document.write("2" + "X" + a + "=" + 2*a + "<br>")
     a++
 }
+*/
 
+// DO WHILE LOOP
+/*
+var a = 1;
+do {
+    document.write(a)
+    a++
+}
+while(a<=10)
+*/
+// IF CONDITION IS WRONG ONLY DO WILL WORK CONDITION WONT WORK
+/*
+var a = 20;
+do {
+    document.write(a)
+    a++
+}
+while(a<=10)
+*/
+
+
+
+    
 
 
 
