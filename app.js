@@ -603,6 +603,32 @@ function greet(a,b){
 console.log(greet(1,1))
 */
 
+/*
+
+for (var i = 1; i < 5; i++){
+    for(var j = 1; j <=5; j++){
+        document.write("#")
+    }
+    document.write("<br>")
+}
+
+*/
+
+// WHILE, DO WHILE
+//TABLE IN WHILE LOOP
+var a = 1;
+while(a <= 10 ){ 
+    document.write("2" + "X" + a + "=" + 2*a + "<br>")
+    a++
+}
+
+
+
+
+
+
+
+
  
 
 
