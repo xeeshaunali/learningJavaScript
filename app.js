@@ -644,9 +644,11 @@ while(a<=10)
 */
 
 
-function add(a,b){
-    return a + b    
-}    
+// onclick
+//onmouseover
+//onmouseleave
+//onfocus
+//onblur
 
 
 
