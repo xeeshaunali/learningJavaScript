@@ -651,8 +651,20 @@ while(a<=10)
 //onblur
 
 
+// function foo(){
+//     alert("Link Clicked !")
+// }
 
+// function abc(a){
+//     alert(a)
+// }
 
+function clickme(){
+    var a = document.getElementById('abc');
+    alert(a.value)
+    a.value = ''
+
+}
 
 
 
