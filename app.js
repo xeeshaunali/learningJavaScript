@@ -685,9 +685,11 @@ while(a<=10)
 //     a.innerText = 'Xeeshaun Ali'
 // }
 
+
+
 function foo(){
-    var a = document.getElementById("abc")
-    a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"
+    var a = document.getElementById("abc")    
+    a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"    
 }
 
 
