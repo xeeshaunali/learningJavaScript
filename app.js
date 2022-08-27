@@ -687,9 +687,16 @@ while(a<=10)
 
 
 
-function foo(){
-    var a = document.getElementById("abc")    
-    a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"    
+// function foo(){
+//     var a = document.getElementById("abc")    
+//     a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"    
+// }
+
+function calc(a){
+    console.log(a)
 }
 
-
+function display(){
+    var b = document.getElementById('7')
+    b.innerHTML = display()
+}
