@@ -659,15 +659,17 @@ while(a<=10)
 //     alert(a)
 // }
 
-function clickme(){
-    var a = document.getElementById('abc');
+// function clickme(){
+//     var a = document.getElementById('abc');
+//     alert(a.value)
+//     a.value = ''
+
+// }
+
+function abc(){
+    var a = document.getElementById('abc')
     alert(a.value)
-    a.value = ''
-
 }
-
-
-
 
 
  
