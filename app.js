@@ -666,18 +666,28 @@ while(a<=10)
 
 // }
 
-function abc(){
-    var a = document.getElementById('abc')
-    alert(a.value)
-}
+// WHILE LOOP PRACTICE
 
-
+// var a = 0
+// do {
+//     document.write(a)
+//     a++
+// } 
+// while (a < 5)
  
 
 
 
+// value  ===> field
 
+// function setvalue(){
+//     var a = document.getElementById("xyz")
+//     a.innerText = 'Xeeshaun Ali'
+// }
 
-
+function foo(){
+    var a = document.getElementById("abc")
+    a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"
+}
 
 
