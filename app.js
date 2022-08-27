@@ -692,11 +692,17 @@ while(a<=10)
 //     a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"    
 // }
 
-function calc(a){
-    console.log(a)
+function calc(b){
+    var a = document.getElementById('abc')
+    a.value += b
 }
 
-function display(){
-    var b = document.getElementById('7')
-    b.innerHTML = display()
+
+function result(){
+    var h = document.getElementById('abc') 
+    console.log(eval(h.value)) 
+    h.value = eval(h.value)        
 }
+
+
+
