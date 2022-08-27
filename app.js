@@ -704,5 +704,11 @@ function result(){
     h.value = eval(h.value)        
 }
 
+function clr(){
+    var r = document.getElementById('abc')
+    r.value = ''
+}
+
+
 
 
