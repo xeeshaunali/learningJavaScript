@@ -692,23 +692,25 @@ while(a<=10)
 //     a.innerHTML += "My Name is Xeeshaun Ali Narejo I am a Web and Graphics Designger Still Learning while at it! Nice to Meet you"    
 // }
 
+
+// CALCULATOR FUNCTIONS
+/*
+
 function calc(b){
-    var a = document.getElementById('abc')
+    var a = document.getElementById('input')
     a.value += b
 }
 
-
 function result(){
-    var h = document.getElementById('abc') 
-    console.log(eval(h.value)) 
-    h.value = eval(h.value)        
+    var b = document.getElementById('input')
+    b.value = eval(b.value)
 }
 
 function clr(){
-    var r = document.getElementById('abc')
-    r.value = ''
+    var c = document.getElementById('input')
+    c.value = ''
 }
-
+*/
 
 
 
