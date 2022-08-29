@@ -718,7 +718,43 @@ function clr(){
 
 // }
 
+//MANIPULATING IMAGES AND TEXT
+/*
 function css(){
     var a = document.getElementById('css')
     a.className = 'big'
+}
+*/
+
+
+
+// function zoom(){
+//     var a = document.getElementById('img')
+//     a.className = 'zm'
+// }
+
+
+// function on(){
+//     var a = document.getElementById('bulb')
+//     a.className = 'on'
+// }
+
+
+// function off(){
+//     var a = document.getElementById('bulb')
+//     a.className = 'off'
+// }
+
+
+
+
+function on(){
+    var a = document.getElementById('bulb')
+    a.src = '/images/onBulb.jpg'
+    
+}
+
+function off(){
+    var a = document.getElementById('bulb')
+    a.src = '/images/offBulb.jpg'
 }
