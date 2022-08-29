@@ -712,5 +712,13 @@ function clr(){
 }
 */
 
+// function show(){
+//     var a = document.getElementById('para')
+//     a.innerHTML = 'Hey my name is Xeeshaun Ali Narejo'
 
+// }
 
+function css(){
+    var a = document.getElementById('css')
+    a.className = 'big'
+}
