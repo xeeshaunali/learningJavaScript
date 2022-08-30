@@ -746,12 +746,9 @@ function css(){
 // }
 
 
-
-
 function on(){
     var a = document.getElementById('bulb')
     a.src = '/images/onBulb.jpg'
-    
 }
 
 function off(){
