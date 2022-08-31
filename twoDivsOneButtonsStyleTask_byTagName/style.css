@@ -1,0 +1,22 @@
+.one {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.oneDiv p {
+    display: inline-block;
+    margin-inline-start: 10px;
+    padding: 5px;
+}
+.oneDiv {
+    width: 10px auto;
+    background-color: red;
+  
+    width: 25%;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    border: 3px double blue;
+
+}
