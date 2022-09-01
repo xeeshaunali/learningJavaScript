@@ -18,8 +18,18 @@
     */
 
 
+    // var a = 0
+    // setInterval(function(){
+    //     a++
+    //     document.write(a)
+    // },1000)
+
+
     var a = 0
-    setInterval(function(){
+    var b = 1000
+    function foo(){
         a++
         document.write(a)
-    },1000)
+    }
+
+    setInterval(foo, 1000)
