@@ -25,14 +25,19 @@
     // },1000)
 
 
-    var a = 0
-    var interval
+//     var a = 0
+//     var interval
 
-    interval = setInterval(function(){
-        a++
-        document.write(a)
-    },1000)
-
-    clearInterval(interval)
+//     interval = setInterval(function(){
+//         a++
+//         document.write(a)
+//     },1000)
+// // second method
+//     clearInterval(interval)
     
-     
+ 
+//THIRD METHOD
+
+    setTimeout(function(){
+        console.log('xee')
+    },1000)
