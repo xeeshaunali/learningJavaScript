@@ -38,6 +38,20 @@
  
 //THIRD METHOD
 
-    setTimeout(function(){
-        console.log('xee')
+    // setTimeout(function(){
+    //     console.log('xee')
+    // },1000)
+
+
+
+    var a = 0
+    var interval
+    interval = setInterval(function(){
+        a++
+        document.write(a)
     },1000)
+
+    setTimeout(function(){
+        clearInterval(interval)
+    },5000)
+
