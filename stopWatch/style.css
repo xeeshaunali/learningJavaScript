@@ -1,0 +1,14 @@
+.abc {    
+    display: flex;
+    justify-content: center;   
+    
+}
+
+h1 {
+    width: 40px;
+    color: white;
+}
+
+.xyz {
+    text-align: center;
+}
