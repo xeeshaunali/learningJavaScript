@@ -26,10 +26,13 @@
 
 
     var a = 0
-    var b = 1000
-    function foo(){
+    var interval
+
+    interval = setInterval(function(){
         a++
         document.write(a)
-    }
+    },1000)
 
-    setInterval(foo, 1000)
+    clearInterval(interval)
+    
+     
