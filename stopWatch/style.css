@@ -1,14 +1,10 @@
-.abc {    
+.abc {
     display: flex;
     justify-content: center;   
+    color: white; 
     
 }
 
-h1 {
-    width: 40px;
-    color: white;
-}
-
 .xyz {
-    text-align: center;
+    text-align: center !important;
 }

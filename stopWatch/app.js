@@ -44,14 +44,30 @@
 
 
 
-    var a = 0
-    var interval
-    interval = setInterval(function(){
-        a++
-        document.write(a)
-    },1000)
+    var miliSec = 0
+    var interval;  
 
-    setTimeout(function(){
+    function miliS(){
+        miliSec++
+        console.log(miliSec) 
+        setInterval(miliS,1000)
+        // interval = setInterval(miliS,1000)                
+    }
+
+    
+    function stop(){
+        
         clearInterval(interval)
-    },5000)
+    }
+
+
+
+
+
+
+
+    
+
+
+   
 
