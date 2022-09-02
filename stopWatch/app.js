@@ -42,20 +42,50 @@
     //     console.log('xee')
     // },1000)
 
-    var a = 0 
-    var interval;
-    interval = setInterval(function(){
-        a++
-        document.write(a)
-    }, 1000);
+    // var a = 0
+    // var interval;
 
-    setTimeout(function(){
-        clearInterval(interval)
-    }, 5000);
+    // interval = setInterval(function(){
+    //     a++
+    //     document.write(a)
+    // },1000)
+
+
+    // setTimeout(function(){
+    //     clearInterval(interval)
+    // }, 10000);
 
     
+    
+    
+    //STOP WATCH
+
+    var min  = 0
+    var sec  = 0
+    var msec = 0
+    var a = document.getElementById('msec')
+    var b = document.getElementById('sec')
+    var c = document.getElementById('min')
+
+
+
+    setInterval(function(){        
+        msec++
+        a.innerHTML = msec
+        if(msec >= 1000){
+            sec++
+            b.innerHTML = sec
+        }
+        
+    },10)
 
     
+    
+
+   
+
+
+
 
 
 
