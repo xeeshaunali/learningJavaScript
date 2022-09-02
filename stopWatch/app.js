@@ -42,25 +42,20 @@
     //     console.log('xee')
     // },1000)
 
+    var a = 0 
+    var interval;
+    interval = setInterval(function(){
+        a++
+        document.write(a)
+    }, 1000);
 
-
-    var miliSec = 0
-    var interval;  
-
-    function miliS(){
-        miliSec++
-        console.log(miliSec) 
-        setInterval(miliS,1000)
-        // interval = setInterval(miliS,1000)                
-    }
+    setTimeout(function(){
+        clearInterval(interval)
+    }, 5000);
 
     
-    function stop(){
-        
-        clearInterval(interval)
-    }
 
-
+    
 
 
 
