@@ -89,6 +89,7 @@
     
 
   // TO START STOP WATCH 
+
  function start(){
    interval = setInterval(function(){
         msec++
@@ -106,11 +107,14 @@
                     }                
             }        
     },10)
-
+    var i = document.getElementById('ms')
+    i.disabled = true // DISABLE BUTTON AFTER CLICK
  }
 
 function stop(){
   clearInterval(interval)
+  var i = document.getElementById('ms')
+  i.disabled = false // ENABLE DISABLED START BUTTON AFTER CLICK
 }
 
 
@@ -123,6 +127,7 @@ function reset(){
         min = 0
         c.innerHTML = min
     })
+    
 }
 
 
