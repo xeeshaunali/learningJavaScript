@@ -66,6 +66,7 @@
     var a = document.getElementById('msec')
     var b = document.getElementById('sec')
     var c = document.getElementById('min')
+    var interval;
 
 
 
@@ -87,9 +88,9 @@
 //    },10)
     
 
-  
+  // TO START STOP WATCH 
  function start(){
-    setInterval(function(){
+   interval = setInterval(function(){
         msec++
         a.innerHTML = msec
 
@@ -108,8 +109,24 @@
 
  }
 
- function 
-    
+function stop(){
+  clearInterval(interval)
+}
+
+
+function reset(){
+    setTimeout(function(){
+        msec = 0
+        a.innerHTML = msec
+        sec = 0
+        b.innerHTML = sec
+        min = 0
+        c.innerHTML = min
+    })
+}
+
+
+ 
    
 
 
