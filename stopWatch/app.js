@@ -69,7 +69,27 @@
 
 
 
-   setInterval(function(){
+//    setInterval(function(){
+//         msec++
+//         a.innerHTML = msec
+
+//             if(msec >= 100){
+//                 sec++
+//                 b.innerHTML = sec
+//                 msec = 0
+
+//                     if(sec >=60){
+//                         min++
+//                         c.innerHTML = min
+//                         sec = 0
+//                     }                
+//             }        
+//    },10)
+    
+
+  
+ function start(){
+    setInterval(function(){
         msec++
         a.innerHTML = msec
 
@@ -77,17 +97,18 @@
                 sec++
                 b.innerHTML = sec
                 msec = 0
+
                     if(sec >=60){
                         min++
                         c.innerHTML = min
                         sec = 0
-                    }
-                
+                    }                
             }        
-   },10)
-    
+    },10)
 
+ }
 
+ function 
     
    
 
