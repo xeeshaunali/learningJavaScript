@@ -69,24 +69,26 @@
 
 
 
-    setInterval(function(){        
+   setInterval(function(){
         msec++
         a.innerHTML = msec
-        if(msec >=100){
-            sec++
-            b.innerHTML = sec
-            msec = 0
-            if(sec >=60){
-                min++
-                a.innerHTML = min
-            }
-        }       
-        
-    },10)
+
+            if(msec >= 100){
+                sec++
+                b.innerHTML = sec
+                msec = 0
+                    if(sec >=60){
+                        min++
+                        c.innerHTML = min
+                        sec = 0
+                    }
+                
+            }        
+   },10)
+    
+
 
     
-    
-
    
 
 
