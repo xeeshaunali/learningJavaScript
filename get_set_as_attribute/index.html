@@ -10,12 +10,13 @@
 </head>
 <body>
 
-    <h1 class="bg-primary">0</h1>
-    <h1 class="bg-danger">0</h1>
-    <h1 class="bg-light">0</h1>
-    <button class="btn btn-primary">START</button>
-    <button class="btn btn-danger">STOP</button>
-    <button class="btn btn-light">RESET</button>
+    <h1 id="min"  class="bg-primary">0</h1>
+    <h1 id="sec"  class="bg-danger">0</h1>
+    <h1 id="msec" class="bg-light">0</h1>
+
+    <button id ="start"  onclick="start()" class="btn btn-primary">START</button>
+    <button id ="stop"   onclick="stop()"  class="btn btn-danger">STOP</button>
+    <button id = "reset" onclick="reset()" class="btn btn-light">RESET</button>
 
     
     <script src="app.js"></script>
