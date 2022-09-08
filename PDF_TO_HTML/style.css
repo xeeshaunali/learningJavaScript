@@ -1,13 +1,9 @@
-/* .abc {
-    display: flex;
-    justify-content: center;   
-    color: white; 
-    
-}
 
-.xyz {
-    text-align: center !important;
-} */
+
+
+body {
+    margin: 0px auto;
+}
 
 
 .tableOne{
@@ -17,7 +13,11 @@
 
 .tableTwo th{
    
-    border: 1px solid rgb(205, 171, 171);
-    
+    border: 1px solid rgb(205, 171, 171);   
    
 }
+
+.tablePart1 th{
+    border-bottom:1px solid black;
+}
+
