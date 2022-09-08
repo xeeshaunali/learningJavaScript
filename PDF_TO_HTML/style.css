@@ -1,0 +1,10 @@
+.abc {
+    display: flex;
+    justify-content: center;   
+    color: white; 
+    
+}
+
+.xyz {
+    text-align: center !important;
+}
