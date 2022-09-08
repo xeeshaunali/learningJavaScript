@@ -10,6 +10,10 @@
 } */
 
 
-th {
-    height: 33px;
+.tableOne{
+    border-bottom: 5px solid black;
+}
+
+.tableTwo{
+    border-bottom: 3px solid black;
 }
