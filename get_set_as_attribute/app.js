@@ -8,18 +8,18 @@
 
 //hasAttribute
 
-function foo(){
-    var a = document.getElementById('has')
-    var b = a.hasAttribute('class')
-    var c = a.getAttribute('class')
-    var d = a.setAttribute('name', 'zee')
-    console.log(b)
-    console.log(c)
-    console.log(d)
+// function foo(){
+//     var a = document.getElementById('has')
+//     var b = a.hasAttribute('class')
+//     var c = a.getAttribute('class')
+//     var d = a.setAttribute('name', 'zee')
+//     console.log(b)
+//     console.log(c)
+//     console.log(d)
 
 
     
-}
+// }
 
 
 

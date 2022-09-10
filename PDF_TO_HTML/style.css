@@ -11,11 +11,11 @@ body {
 }
 
 
-.tableTwo th{
+/* .tableTwo th{
    
     border: 1px solid rgb(205, 171, 171);   
    
-}
+} */
 
 .tablePart1 th{
     border-bottom:1px solid black;
