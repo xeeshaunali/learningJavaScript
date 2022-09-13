@@ -1,11 +1,16 @@
 function foo(){
-    var docs = document.getElementById('list')
-    // var newElement = document.createElement('p')
+    var docs = document.getElementById('list')    
     var newLi = document.createElement('li')
     var newMsg = document.createTextNode(docs.value)
     newLi.appendChild(newMsg) 
     var a = document.getElementById('myDiv').appendChild(newLi)
-    docs.value = ''   
+    docs.value = ''
+    var del = document.createElement('button')
+    var delbtn = document.createTextNode('delete')
+    del.appendChild(delbtn)
+    newLi.append(del)
+    
+    del.setAttribute('onclick', 'delItem()')
 
 }
 
