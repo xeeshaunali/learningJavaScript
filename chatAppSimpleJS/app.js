@@ -4,12 +4,11 @@
 // console.log(nayaParagraphJS)
 
 
-function foo(){
-    var a = document.getElementById('abc')
-    // console.log(a.value)
-    // document.write(a.value)
-    var newElement = createElement('p')
-    var newValue = document.createTextNode(a.value)
-    newElement.append(newValue)
 
-}
+var newElement = document.createElement('input')
+var a = document.getElementsByTagName('input')
+var b = a.setAttribute('id','shush')
+var c = document.getElementById('shush')
+var d = document.createTextNode('Hellloo')
+newElement.append(d)
+console.log(newElement)
