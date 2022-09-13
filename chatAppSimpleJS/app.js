@@ -7,5 +7,5 @@ var newMsg = document.createTextNode(a.value)
 newElement.setAttribute('id','shush')
 var para = document.getElementById('shush')
 newElement.append(newMsg)
-var paragraph = document.getElementById('myDiv').appendChild(newElement)
+var paragraph = document.getElementById('chat').appendChild(newElement)
 }
