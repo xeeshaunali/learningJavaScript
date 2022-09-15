@@ -10,7 +10,12 @@ function foo(){
     del.appendChild(delbtn)
     newLi.append(del)
     
-    del.setAttribute('onclick', 'delItem()')
+    del.setAttribute('onclick', 'delItem()')   
+
+}
+
+function delItem(e){
+   console.log(e)
 
 }
 
