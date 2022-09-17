@@ -1,23 +1,23 @@
-function foo(){
-    var docs = document.getElementById('list')    
-    var newLi = document.createElement('li')
-    var newMsg = document.createTextNode(docs.value)
-    newLi.appendChild(newMsg) 
-    var a = document.getElementById('myDiv').appendChild(newLi)
-    docs.value = ''
-    var del = document.createElement('button')
-    var delbtn = document.createTextNode('delete')
-    del.appendChild(delbtn)
-    newLi.append(del)
+// function foo(){
+//     var docs = document.getElementById('list')    
+//     var newLi = document.createElement('li')
+//     var newMsg = document.createTextNode(docs.value)
+//     newLi.appendChild(newMsg) 
+//     var a = document.getElementById('myDiv').appendChild(newLi)
+//     docs.value = ''
+//     var del = document.createElement('button')
+//     var delbtn = document.createTextNode('delete')
+//     del.appendChild(delbtn)
+//     newLi.append(del)
     
-    del.setAttribute('onclick', 'delItem()')   
+//     del.setAttribute('onclick', 'delItem()')   
 
-}
+// }
 
-function delItem(e){
-   console.log(e)
+// function delItem(e){
+//    console.log(e)
 
-}
+// }
 
 
 /*
@@ -30,3 +30,24 @@ function bhejo ( ) {
     a.appendChild ( li )
 }
 */
+
+var a = document.getElementById('abc')
+function foo(){
+    var newElement = document.createElement('li')
+    var newMsg = document.createTextNode(a.value)
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
