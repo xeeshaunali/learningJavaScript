@@ -32,19 +32,6 @@ function bhejo ( ) {
 */
 
 
-function foo(){
-    var inputt = document.getElementById('inputt')
-    var newElement = document.createElement('li')
-    var newMsg = document.createTextNode(inputt.value)
-    newElement.appendChild(newMsg)
-    console.log(newElement)
-    var newUl = document.createElement('ul')
-    newUl.appendChild(newElement)
-    console.log(newUl)
-
-    
-}
-
 
 
 
