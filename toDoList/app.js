@@ -31,15 +31,13 @@ function bhejo ( ) {
 }
 */
 
-var a = document.getElementById('abc')
+
 function foo(){
+    var inputt = document.getElementById('inputt')
     var newElement = document.createElement('li')
-    var newMsg = document.createTextNode(a.value)
+    var newMsg = document.createElement(inputt.value)
     
 }
-
-
-
 
 
 
