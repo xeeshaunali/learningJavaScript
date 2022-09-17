@@ -32,8 +32,23 @@ function bhejo ( ) {
 */
 
 
+var a = document.getElementById('abc')
+
+function bhejo(){
+    var add = document.getElementById('addtodo')
+    var li = document.createElement('li')    
+    var insert = document.createTextNode(add.value)
+    li.appendChild(insert)
+    console.log(li)
+    a.appendChild(li)
+    add.value = ''
+    
+     
+    
+        
 
 
+}
 
 
 
