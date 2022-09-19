@@ -47,6 +47,13 @@ function bhejo(){
     del.appendChild(delbtn)    
     li.appendChild(del)
     del.setAttribute('onclick','delitem(this)')
+    var editbtn = document.createElement('button')
+    var editbtntxt = document.createTextNode('Edit')
+    editbtn.appendChild(editbtntxt)
+    li.appendChild(editbtn)
+    editbtn.setAttribute('onclick','editfunc(this)')
+
+
 }
 function delitem(e){
     // console.log(e)
@@ -56,6 +63,13 @@ function delitem(e){
 function delall(){
     a.innerHTML = ''
 }
+
+function editfunc(e){
+//    console.log(e)
+        var editValue = prompt('Enter Value',e.parentNode.firstChild.nodeValue)        
+        e.parentNode.firstChild.nodeValue = editValue       
+}
+
 
 // EDIT KA KAM KARNA HA
 
