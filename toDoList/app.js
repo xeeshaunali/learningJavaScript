@@ -31,7 +31,7 @@ function bhejo ( ) {
 }
 */
 
-
+// TO DO LIST APPLICATION CODE
 var a = document.getElementById('abc')
 
 function bhejo(){
@@ -56,6 +56,8 @@ function delitem(e){
 function delall(){
     a.innerHTML = ''
 }
+
+// EDIT KA KAM KARNA HA
 
 
 
