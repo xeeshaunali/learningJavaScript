@@ -42,14 +42,21 @@ function bhejo(){
     console.log(li)
     a.appendChild(li)
     add.value = ''
-    
-
-     
-    
-        
-
-
+    var del = document.createElement('button')    
+    var delbtn = document.createTextNode('delete')
+    del.appendChild(delbtn)    
+    li.appendChild(del)
+    del.setAttribute('onclick','delitem(this)')
 }
+function delitem(e){
+    // console.log(e)
+    e.parentNode.remove()
+}
+
+function delall(){
+    a.innerHTML = ''
+}
+
 
 
 
