@@ -1,6 +1,9 @@
 //OBJECT
 
 var obj = {
-    name1 : 'Saad'     
+    name1 : 'Saad',
+    age : 22,
+    arr :['Ali','Syed','03213008992']
 } 
-document.write(obj.name1)
+
+console.log(obj)
