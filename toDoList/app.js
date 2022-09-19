@@ -33,7 +33,6 @@ function bhejo ( ) {
 
 // TO DO LIST APPLICATION CODE
 var a = document.getElementById('abc')
-
 function bhejo(){
     var add = document.getElementById('addtodo')
     var li = document.createElement('li')    
@@ -52,26 +51,20 @@ function bhejo(){
     editbtn.appendChild(editbtntxt)
     li.appendChild(editbtn)
     editbtn.setAttribute('onclick','editfunc(this)')
-
-
 }
 function delitem(e){
     // console.log(e)
     e.parentNode.remove()
 }
-
 function delall(){
     a.innerHTML = ''
 }
-
 function editfunc(e){
 //    console.log(e)
         var editValue = prompt('Enter Value',e.parentNode.firstChild.nodeValue)        
         e.parentNode.firstChild.nodeValue = editValue       
 }
 
-
-// EDIT KA KAM KARNA HA
 
 
 
