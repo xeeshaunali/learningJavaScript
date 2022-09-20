@@ -3,7 +3,7 @@
 var obj = {
     name1 : 'Saad',
     age : 22,
-    // arr :['Ali','Syed','03213008992']
+    arr :['Ali','Syed','03213008992']
 } 
 
 // console.log(obj)
@@ -13,5 +13,5 @@ var obj = {
 //for var key in
 
 for (var key in obj){
-    document.write(key[obj])
+    document.write(key + "<br>")
 }
