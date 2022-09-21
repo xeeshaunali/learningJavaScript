@@ -12,6 +12,10 @@ var obj = {
 
 //for var key in
 
+// for (var key in obj){
+//     document.write(obj[key] + "<br>")
+// }
+
 for (var key in obj){
-    document.write(key + "<br>")
+    document.write(key)
 }
