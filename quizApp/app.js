@@ -1,9 +1,17 @@
-//OBJECT
-var obj = {
-    name1 : 'Saad',
-    age : 22,
-    arr :['Ali','Syed','03213008992']
-} 
-for (var key in obj){
-    document.write(key +":"+obj[key] + " <br>")
-}
+//QUIZ APPLICATION
+var quiz = [
+    {
+        question : 'What is you name',
+        answers :[
+            {
+                ans1: 'Saad',
+                ans2: 'Ali',
+                ans3:'Hello Wolrd'
+            },
+        correctans :
+           
+        ]
+    },
+    {},
+    {}
+]
