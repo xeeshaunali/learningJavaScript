@@ -8,10 +8,21 @@ var quiz = [
                 ans2: 'Ali',
                 ans3:'Hello Wolrd'
             },
-        correctans :
+        correctans = {
+            ans1 : ''
+        }
            
         ]
     },
     {},
     {}
 ]
+
+//FOR LOOP
+//NESTED LOOP
+//FOR EACH 
+//DO WHILE
+//WHILE
+// FOR KEY IN OBJECT
+//BREAK FLAGS
+
