@@ -16,7 +16,7 @@
 
 // localStorage.clear()
 // sessionStorage.clear()
-
+// localStorage.clear()
 //SIGNUP FORM
 function signup(){var fname = document.getElementById('fname').value;
                     localStorage.setItem('First Name', fname);
@@ -29,15 +29,23 @@ function signup(){var fname = document.getElementById('fname').value;
                     var pass2 = document.getElementById('pass2').value;
                     localStorage.setItem('PasswordConfirm', pass2);
                     alert('Data saved successfully')
+                //    window.location.href='login.html'
 }
 
 function login(){
-    var username = document.getElementById('email1')
-    var password = document.getElementById('pass1')
-    if (username.value === localStorage.getItem(email1) && password === localStorage.getItem(pass1)){
+    var username = document.getElementById('email1').value;
+    var password = document.getElementById('pass1').value;
+    var a =  localStorage.getItem('Email')
+    var b =  localStorage.getItem('Password')
+    console.log(username)
+    console.log(password)
+    console.log(a)
+    console.log(b)
+    if (username === a && password === b){
         alert('Done')
+        window.location.href = 'wellcome.html'
     }    
     else {
-        alert('failed')
+        alert('failed')        
     }
 }
