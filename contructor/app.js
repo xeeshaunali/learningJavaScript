@@ -28,4 +28,16 @@ function signup(){var fname = document.getElementById('fname').value;
                     localStorage.setItem('Password', pass1);
                     var pass2 = document.getElementById('pass2').value;
                     localStorage.setItem('PasswordConfirm', pass2);
+                    alert('Data saved successfully')
+}
+
+function login(){
+    var username = document.getElementById('email1')
+    var password = document.getElementById('pass1')
+    if (username.value === localStorage.getItem(email1) && password === localStorage.getItem(pass1)){
+        alert('Done')
+    }    
+    else {
+        alert('failed')
+    }
 }
