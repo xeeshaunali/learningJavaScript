@@ -10,27 +10,18 @@
     <link rel="stylesheet" href="style-wellcome.css">
 </head>
 <body>   
-   <div class="container">
-    <div class="row">
-        <h1 class="text-center bg-primary quizapp">QUIZ APP</h1>
-        <h3 class="text-center wellcome">Wellcome:<script>document.write("  " + localStorage.getItem('name'))</script></h3>
-        <h2 class="text-center selectquiz">Please Select your quiz</h2>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center bg-primary quizapp">QUIZ APP</h1>
+            <h3 class="text-center wellcome">Wellcome:<script>document.write("  " + localStorage.getItem('name'))</script></h3>
+            <h2 class="text-center selectquiz">Please Select your quiz</h2>
+        </div>
     </div>
-    <div class="row">
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Computer Science
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
-              Mathematics
-            </label>
-          </div>
-    </div>
-   </div>
+    <div class="container text-center mt-1">
+        <button onclick="cs()" class="btn btn-primary">Computer Science</button>
+        <button onclick="cs()" class="btn btn-primary">Mathematics</button>
+        <button onclick="cs()" class="btn btn-primary">Biology</button>
+    </div>   
 
     <script src="bootstrap.min.js"></script>
     <script src="app.js"></script>
