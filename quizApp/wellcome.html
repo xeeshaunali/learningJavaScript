@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>WELLCOME</title>
+    <link rel="stylesheet" href="bootstrap.min.css">    
+    <link rel="stylesheet" href="style-wellcome.css">
+    <link rel="stylesheet" href="style-wellcome.css">
+</head>
+<body>   
+   <div class="container">
+    <div class="row">
+        <h1 class="text-center bg-primary quizapp">QUIZ APP</h1>
+        <h3 class="text-center wellcome">Wellcome:<script>document.write("  " + localStorage.getItem('name'))</script></h3>
+        <h2 class="text-center selectquiz">Please Select your quiz</h2>
+    </div>
+    <div class="row">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Computer Science
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Mathematics
+            </label>
+          </div>
+    </div>
+   </div>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

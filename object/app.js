@@ -7,3 +7,11 @@ var obj = {
 for (var key in obj){
     document.write(key +":"+obj[key] + " <br>")
 }
+
+var quiz = {
+    name2 : 'Ali',
+    are : 22,    
+}
+for (var key in quiz){
+    document.write(key + ":" + quiz[key]  + " <br>")
+}
