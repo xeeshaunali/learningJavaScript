@@ -27,10 +27,21 @@ function login(){
 }
 
 
-function cs(){
-    
+function math(){
+    var questions = [
+        {
+            question1 : '2 + 2 = ?',
+            ans1 : 3,
+            ans2 : 2,
+            ans  : 4,
+        },
+        {
+            correctans : 4,
+        }       
+        
+    ]
+    document.getElementById("arrprint").innerHTML = JSON.stringify(questions, null, 1);
 }
-
 
 
 
