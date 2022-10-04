@@ -1,5 +1,14 @@
-.abc {
-    display: flex;
-    justify-content: center;
-    
+.main {
+    margin: 0px auto;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 5px;
+   text-align: center;
+}
+
+h1 {
+    margin: 0px auto;
+    width: 20%;    
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
